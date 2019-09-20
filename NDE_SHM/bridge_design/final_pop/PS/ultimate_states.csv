@@ -1,0 +1,9 @@
+ModelName,Beam,strand_yield_mom,strand_rupture_mom,crush_mom,rupture_curv,crush_curv,LRFD_Mn_pos,fail_mode
+Prestressed-100ftx12ft-spacing.mat,,124887285.9,1.473E+08,NaN,5.345E-04,NaN,1.421E+08,rupture
+Prestressed-100ftx6ft-spacing.mat,,62511032.79,5.999E+07,7.624E+07,7.923E-04,4.366E-04,7.301E+07,crushing
+Prestressed-100ftx8ft-spacing.mat,,78928942.18,9.136E+07,9.662E+07,6.417E-04,4.545E-04,9.232E+07,crushing
+Prestressed-150ftx6ft-spacing.mat,,147682767.3,1.590E+08,1.761E+08,5.355E-04,2.916E-04,1.722E+08,crushing
+Prestressed-150ftx8ft-spacing.mat,,187366065.1,1.967E+08,2.240E+08,6.047E-04,2.950E-04,2.190E+08,crushing
+Prestressed-50ftx12ft-spacing.mat,,31637916.65,3.879E+07,NaN,6.889E-04,NaN,3.543E+07,rupture
+Prestressed-50ftx6ft-spacing.mat,,17345447.92,2.068E+07,NaN,8.465E-04,NaN,1.956E+07,rupture
+Prestressed-50ftx8ft-spacing.mat,,21598912.06,2.601E+07,NaN,8.502E-04,NaN,2.426E+07,rupture

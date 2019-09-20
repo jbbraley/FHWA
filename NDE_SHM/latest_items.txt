@@ -1,0 +1,8 @@
+Designed 9 Steel and 9 Prestressed bridges according to LRDF specifications
+Constructed 3D FE Models of 2 median bridges
+Continued development of software for performing sensitivity studies with fiber models
+
+MBE may be revised based on results
+Hoda wants to create an open source data processing and FE modeling etc. platform
+
+Only 8 Prestressed designs since 150 ft span length cannot be achieved with a 12' girder spacing

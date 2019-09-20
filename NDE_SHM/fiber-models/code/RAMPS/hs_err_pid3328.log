@@ -1,0 +1,93 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x7718e41b, pid=3328, tid=6324
+#
+# JRE version: 7.0_11-b21
+# Java VM: Java HotSpot(TM) Client VM (23.6-b04 mixed mode windows-x86 )
+# Problematic frame:
+# C  [ntdll.dll+0x2e41b]  RtlInitUnicodeString+0x1f3
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x1f48bc00):  JavaThread "AWT-EventQueue-0" [_thread_in_vm, id=6324, stack(0x21690000,0x21710000)]
+
+siginfo: ExceptionCode=0xc0000005, writing address 0x002d99ab
+
+Registers:
+EAX=0x002d99ab, EBX=0xb36e19bb, ECX=0x0000073d, EDX=0x00000000
+ESP=0x2170e3f8, EBP=0x2170e42c, ESI=0x2b43ef0d, EDI=0xb36e0000
+EIP=0x7718e41b, EFLAGS=0x00210202
+
+Top of Stack: (sp=0x2170e3f8)
+0x2170e3f8:   00000000 04970000 4a1b34e8 00000400
+0x2170e408:   01010002 012d99ba 00000000 2170f5e4
+0x2170e418:   771d71f5 00e8b65f 102d996d 00000001
+0x2170e428:   4a1b34e0 2170e444 7718e023 4a1b34f0
+0x2170e438:   60728cb7 4a1b34e8 4a1b34e0 2170e470
+0x2170e448:   04cb8cb3 04970000 00000000 4a1b34e8
+0x2170e458:   5408d014 74d113c0 5408cbf8 4a1b37a4
+0x2170e468:   4a61c12c 4a1b37a4 2170e494 04cba188 
+
+Instructions: (pc=0x7718e41b)
+0x7718e3fb:   08 2b 7d f4 33 c0 c1 ef 03 0f a4 f8 10 c1 e7 10
+0x7718e40b:   c1 ea 10 0b df 0b c8 8b 06 c7 45 f8 01 00 00 00
+0x7718e41b:   89 30 8b 45 e0 8b 55 e4 8d 7e 08 f0 0f c7 0f 3b
+0x7718e42b:   45 e0 0f 85 88 6d 03 00 3b 55 e4 0f 85 7f 6d 03 
+
+
+Register to memory mapping:
+
+EAX=0x002d99ab is an unknown value
+EBX=0xb36e19bb is an unknown value
+ECX=0x0000073d is an unknown value
+EDX=0x00000000 is an unknown value
+ESP=0x2170e3f8 is pointing into the stack for thread: 0x1f48bc00
+EBP=0x2170e42c is pointing into the stack for thread: 0x1f48bc00
+ESI=0x2b43ef0d is an unknown value
+EDI=0xb36e0000 is an unknown value
+
+
+Stack: [0x21690000,0x21710000],  sp=0x2170e3f8,  free space=504k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [ntdll.dll+0x2e41b]  RtlInitUnicodeString+0x1f3
+C  [ntdll.dll+0x2e023]  RtlFreeHeap+0x7e
+C  [AcXtrnal.DLL+0x8cb3]
+C  [AcXtrnal.DLL+0xa188]
+C  [kernel32.dll+0x114ad]  HeapFree+0x14
+C  [MSVCR100.dll+0x1016a]  free+0x1c
+C  0x0882c865  JNI_CreateJavaVM+0x2f35
+C  0x6c2729d7  Java_sun_dc_pr_PathFiller_writeAlpha8+0x7b
+j  sun.dc.pr.PathFiller.writeAlpha8([BIII)V+0
+j  sun.dc.pr.PathFiller.writeAlpha([BIII)V+6
+j  sun.dc.pr.Rasterizer.getAlpha([BII)V+15
+j  sun.java2d.pipe.AAShapePipe.renderTiles(Lsun/java2d/SunGraphics2D;Ljava/awt/Shape;Lsun/java2d/pipe/AATileGenerator;[I)V+227
+j  sun.java2d.pipe.AAShapePipe.renderPath(Lsun/java2d/SunGraphics2D;Ljava/awt/Shape;Ljava/awt/BasicStroke;)V+82
+j  sun.java2d.pipe.AAShapePipe.fill(Lsun/java2d/SunGraphics2D;Ljava/awt/Shape;)V+4
+j  sun.java2d.pipe.PixelToParallelogramConverter.fill(Lsun/java2d/SunGraphics2D;Ljava/awt/Shape;)V+70
+j  sun.java2d.pipe.ValidatePipe.fill(Lsun/java2d/SunGraphics2D;Ljava/awt/Shape;)V+14
+j  sun.java2d.SunGraphics2D.fill(Ljava/awt/Shape;)V+6
+j  com.mathworks.toolstrip.plaf.ToolstripHeaderUI.drawInactiveTabs(Ljava/awt/Graphics2D;Ljava/awt/Dimension;Lcom/mathworks/toolstrip/DefaultToolstrip;Ljava/awt/Color;Ljava/awt/Color;Ljava/awt/Color;)V+122
+j  com.mathworks.toolstrip.plaf.ToolstripHeaderUI$HeaderTab.paintComponent(Ljava/awt/Graphics;)V+536
+J  javax.swing.JComponent.paint(Ljava/awt/Graphics;)V
+J  javax.swing.JComponent.paintChildren(Ljava/awt/Graphics;)V
+J  javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(Ljavax/swing/JComponent;Ljava/awt/Image;Ljava/awt/Graphics;IIII)V
+j  javax.swing.RepaintManager.paint(Ljavax/swing/JComponent;Ljavax/swing/JComponent;Ljava/awt/Graphics;IIII)V+52
+J  javax.swing.JComponent.paint(Ljava/awt/Graphics;)V
+j  sun.awt.SunGraphicsCallback.runOneComponent(Ljava/awt/Component;Ljava/awt/Rectangle;Ljava/awt/Graphics;Ljava/awt/Shape;I)V+155
+j  sun.awt.SunGraphicsCallback.runComponents([Ljava/awt/Component;Ljava/awt/Graphics;I)V+194
+j  java.awt.Container.paint(Ljava/awt/Graphics;)V+58
+j  java.awt.Window.paint(Ljava/awt/Graphics;)V+68
+J  javax.swing.RepaintManager.paintDirtyRegions(Ljava/util/Map;)V
+j  javax.swing.RepaintManager.prePaintDirtyRegions()V+73
+j  javax.swing.RepaintManager.access$700(Ljavax/swing/RepaintManager;)V+1
+j  javax.swing.RepaintManager$ProcessingRunnable.run()V+37
+J  java.awt.event.InvocationEvent.dispatch()V
+C  0x088aa3ba  JVM_Clone+0x4982a
+C

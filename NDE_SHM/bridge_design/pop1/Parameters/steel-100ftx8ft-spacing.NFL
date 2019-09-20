@@ -1,0 +1,138 @@
+ ____________________________________________ 
+*Solution commenced on 21/08/2019 at 15:48:41 
+  
+ Strand7 [2.4.6][Solver Build: 24141222] (32-Bit) 
+  
+ ANALYSIS TYPE               : NATURAL FREQUENCY 
+  
+ COMPUTER NAME               : JB-NOTEBOOK 
+ USER LOGON NAME             : John B 
+ CPU                         : Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz 
+ USABLE PHYSICAL MEMORY      : 4.0 GB 
+ USABLE VIRTUAL MEMORY       : 3.0 GB 
+  
+ MODEL FILE                  : "C:\Users\John B\Projects_Git\FHWA\NDE_SHM\bridge_design\pop1\Parameters\steel-100ftx8ft-spacing.st7" 
+ RESULT FILE                 : "C:\Users\John B\Projects_Git\FHWA\NDE_SHM\bridge_design\pop1\Parameters\steel-100ftx8ft-spacing.NFA" 
+ SCRATCH PATH                : "C:\Users\John B\Strand7\Tmp\" 
+  
+ TOTALS 
+ Nodes                       : 6188 
+ Beams                       : 1525 
+ Plates                      : 4608 
+ Bricks                      :    0 
+ Links                       :  818 
+  
+ SOLVER UNITS 
+ Length                      : in 
+ Mass                        : lbm 
+ Force                       : lbf 
+ Stress                      : psi 
+  
+ FREEDOM CASE                : "Freedom Case 1" 
+  
+ MASS MATRIX OPTION 
+ Beam Elements               : Lumped 
+ Plate Elements              : Lumped 
+ Global Matrix               : Full (for off-diagonal terms) 
+ Non-Structural Mass         : Added (from the following cases) 
+                             : "Load Case 1" 
+  
+ STORAGE SCHEME              : Sparse  
+ SORTING METHOD              : AMD  
+  
+ NUMBER OF EQUATIONS         : 32202 
+ MATRIX FILL-IN              : 84.6% 
+ [K] MATRIX SIZE             : 40.9 MB 
+ [M] MATRIX SIZE             : 6.3 MB 
+ OPTIMUM RAM NEEDED          : 9.1 MB 
+ FREE SCRATCH SPACE          : 819.6 GB 
+  
+ Reducing 32202 Equations (Using 40.9 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 3.126103E+16 (Node 56 RX) 
+ MINIMUM PIVOT               : 4.606804E+03 (Node 3208 DX) 
+  
+ NODAL DISPLACEMENT COMPONENTS USED IN STARTING VECTOR 
+     105[DX]     3158[DX]        9[DX]     1138[DX]       10[DX]      328[DX]  
+      58[DX]      106[DX]     4168[DX]  
+  
+ SUBSPACE ITERATION 
+ Natural Frequencies         : 4  
+ Mass Degrees of Freedom     : 17216 
+ Subspace Dimension          : 10 
+ Convergence Tolerance       : 1.000000E-05 
+ Frequency Shift             : 0.000000E+00 Hz 
+  
+ ITERATION 1 
+ Current Frequencies (Hz) 
+  3.23443E+00  3.65648E+01  3.94192E+01  3.98502E+01  3.98680E+01  3.98756E+01 
+  3.98873E+01  3.98912E+01  3.98978E+01  3.99002E+01 
+  
+ ITERATION 2 
+ Current Frequencies (Hz) 
+  2.64615E+00  3.39219E+00  6.47117E+00  1.50333E+01  3.14555E+01  3.75360E+01 
+  3.96358E+01  3.96963E+01  3.98497E+01  3.98895E+01 
+ Relative Difference [Converged: 0] 
+  2.22316E-01  9.77909E+00  5.09151E+00  1.65080E+00  2.67440E-01  6.23296E-02 
+  6.34633E-03  4.90910E-03  1.20748E-03  2.68411E-04 
+  
+ ITERATION 3 
+ Current Frequencies (Hz) 
+  2.62754E+00  3.26120E+00  4.95337E+00  5.39751E+00  1.02054E+01  1.14789E+01 
+  2.30990E+01  2.66723E+01  3.82772E+01  3.98586E+01 
+ Relative Difference [Converged: 0] 
+  7.08336E-03  4.01668E-02  3.06419E-01  1.78523E+00  2.08225E+00  2.26999E+00 
+  7.15910E-01  4.88294E-01  4.10797E-02  7.74130E-04 
+  
+ ITERATION 4 
+ Current Frequencies (Hz) 
+  2.62753E+00  3.26111E+00  4.94082E+00  5.38719E+00  9.50399E+00  9.67358E+00 
+  1.08965E+01  1.11583E+01  2.12670E+01  3.82081E+01 
+ Relative Difference [Converged: 1] 
+  2.76045E-06  2.93763E-05  2.53859E-03  1.91454E-03  7.37991E-02  1.86626E-01 
+  1.11985E+00  1.39035E+00  7.99843E-01  4.31978E-02 
+  
+ ITERATION 5 
+ Current Frequencies (Hz) 
+  2.62753E+00  3.26111E+00  4.94077E+00  5.38718E+00  9.40622E+00  9.64544E+00 
+  1.07511E+01  1.08527E+01  1.49372E+01  2.22379E+01 
+ Relative Difference [Converged: 3] 
+  9.77467E-10  5.21308E-09  1.03397E-05  2.64496E-06  1.03937E-02  2.91802E-03 
+  1.35227E-02  2.81625E-02  4.23757E-01  7.18154E-01 
+  
+ ITERATION 6 
+ Current Frequencies (Hz) 
+  2.62753E+00  3.26111E+00  4.94077E+00  5.38718E+00  9.38424E+00  9.64067E+00 
+  1.07497E+01  1.08194E+01  1.43632E+01  1.59915E+01 
+ Relative Difference [Converged: 4] 
+  1.18935E-12  3.82386E-12  1.62205E-07  4.74008E-08  2.34223E-03  4.94696E-04 
+  1.33512E-04  3.08078E-03  3.99668E-02  3.90609E-01 
+  
+ ITERATION 7 
+ Current Frequencies (Hz) 
+  2.62753E+00  3.26111E+00  4.94077E+00  5.38718E+00  9.37844E+00  9.63949E+00 
+  1.07494E+01  1.08045E+01  1.38385E+01  1.51960E+01 
+ Relative Difference [Converged: 4] 
+  1.69014E-16  1.02133E-14  2.54384E-09  1.21388E-09  6.19061E-04  1.22176E-04 
+  3.00981E-05  1.37368E-03  3.79132E-02  5.23437E-02 
+  
+ THE FIRST 4 EIGENVALUES HAVE CONVERGED 
+  
+ FINAL FREQUENCY RESULTS 
+ Mode        Eigenvalue       Frequency (rad/s)    Frequency (Hz) 
+    1      2.72555543E+02      1.65092563E+01      2.62752974E+00 
+    2      4.19845422E+02      2.04901299E+01      3.26110545E+00 
+    3      9.63716489E+02      3.10437834E+01      4.94077158E+00 
+    4      1.14573041E+03      3.38486398E+01      5.38717833E+00 
+  
+ TOTAL CPU TIME              : 2.531 Seconds ( 0:00:03) 
+  
+*Solution completed on 21/08/2019 at 15:48:43 
+*Solution time: 3 Seconds 
+  
+ 
+*SUMMARY OF MESSAGES
+*Number of Notes    : 0
+*Number of Warnings : 0
+*Number of Errors   : 0
+ 

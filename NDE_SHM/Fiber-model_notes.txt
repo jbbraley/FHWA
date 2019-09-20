@@ -1,0 +1,31 @@
+General Description
+The cross section is descritized into "fibers" with associated stress-strain relationships.
+For a given axial load, curvature is imposed and forces are computed for individual fibers. 
+Equilibrium equations are used to check the total force is equal to the applied force. 
+The centroidal strain is adjusted until the sum of forces equals the applied force.
+The moment is computed by multiplying the individual fiber forces by their moment arm (or distance to extreme fiber)
+The curvature is incrementally varied to produce a moment-curvature curve.
+f1(x)-f1(x+a)=(f1-f2)(x)+f2(a)
+
+
+Meeting notes
+send back revised report
+by end of july both local (fiber) models and global (FE) models
+August: use models to investigate deterioration parameters
+Go back and use field data, scale to meet sensitive bounds and evaluate effect on load ratings
+6-7 weeks to understand deterioration parameters effects, plus another month to investigate in context of real data.
+Possible case bridges:
+	Virginia pilot bridge (haymarket)
+	IBS
+	BEAST specimen 1
+
+Info bridge not publicly accessible
+Jalinoos wants "stacks"
+Could also be sent to FHWA for selecting other possible bridges
+No issues from fhwa
+will send out revised report and schedule
+Aug 5th? conference call; plan on discussing initial data
+To extend to October. Expand the schedule to end in November/December.
+
+BEAST meeting
+data collection plan

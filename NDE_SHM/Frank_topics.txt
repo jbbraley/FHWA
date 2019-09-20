@@ -1,0 +1,9 @@
+deck reinforcement?
+material properties (i.e deck strength)
+
+percent non-composite
+	1. find deck force at deck crushing
+	2. hold total deck force constant while continuing to vary curvature (i.e. optimize with constraint that deck force = value)
+	3. what is capacity now, still crushing at top fiber?
+
+non-composite: suggest not include bending of deck, and therefore capacity w/o deck

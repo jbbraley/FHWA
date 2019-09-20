@@ -1,0 +1,12 @@
+steel at strength
+	composite: capacity = plastic moment capacity, therefore will be computed as moment at first concrete crushing (top of deck)
+	non-comp: capacity = moment at first yield (girder)
+	partial comp: maximum of first crushing and first yield
+	
+
+prestressed at strength
+	composite: capacity = plastic moment capacity, therefore will be computed as moment at first concrete crushing (top of deck) or yielding of strands (0.9Fu).
+	non_composite: capacity = plastic moment capacity, first crushing at top of girder or strand yielding
+	partial comp: (check top of girder & top of deck for crushing)
+
+	strands are breaking before crushing at top of deck

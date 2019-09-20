@@ -1,0 +1,9 @@
+NCHRP Tolerable Settlement Study
+Process Notes
+
+Step 1:		Build Model Population
+Step 2: 	Create Freedom Cases
+Step 3:		Get DL Responses
+Step 4: 	Get Settlement Responses
+Step 5: 	Get LL Responses
+Step 6: 	Calculate Tolerable Settlement

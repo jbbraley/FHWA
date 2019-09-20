@@ -1,0 +1,49 @@
+Reports due on the 15th of the month (for the previous month)
+Starting at the beginning of the month need to obtain 3 sets of information
+1. Personell (subtask) hours from Sherif
+2. Descriptions of work performed from involved personell
+3. Description of work performed from subcontractors 
+
+Make sure personell hours match subcontractors' reports and hours can be justified for the given subtask (have Sherif adjust as necessary)
+Add work descriptions to report and summarize subcontractors work
+Update Purchases/Rental for only purchases exceeding $5k
+Update current and cumulative expenditures summary
+Occasionally an Appendix will be included at the end
+Review for date errors or other typos
+Compile into PDF
+Send to Rob Zobel
+Send an updated Project schedule
+
+
+LTBP
+Task Order 2
+	Sherif working on the billing numbers
+	Task 2 is completed
+	Task 6 has been eliminated and Task 4 added
+	Need to wait/make sure frank has smoothed out Saeed working on Jalinoos stuff
+	Hooman will likely have no billing for August
+	Saeed may only have billing for August
+	Saeed is on Task 7
+	MS Project may not be necessary (consult with Frank)
+
+
+BEAST
+	Sherif working on BEAST April, May, June, July, and August
+	still need to check if monthly or quarterly
+	
+	Task 1 is completed
+	Task 2 is ongoing but not much budget left
+	Task 3 is supposed to go from May till August
+	Task 4 starts is september
+	Adriana is funded off beast
+	NJIT may still be on Aug but likely almost finished
+
+NDE-SHM
+	quarterly progress reports
+	billing/accounting is not included in Progress Report
+	Do I need to make sure the work coincides with Tasks billed?
+
+Misc
+	Infratek and WJE do not bill at rates matching the FHWA categories, NJIT bills at consistent rates
+	Saaid is charged to surplus
+	Hourly students are likely also on surplus

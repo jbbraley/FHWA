@@ -1,0 +1,4 @@
+w27x84
+50% composite would be neutral axis halfway between fully and non-composite (adjust offset at shear release)
+	or percent of compressive force that can be developed in deck
+look at variable width delaminations

@@ -1,0 +1,13 @@
+FHWA_NDE-SHM: fiber model etc.
+
+concrete model - hognestad
+steel model - 
+
+schedule out to december - total work
+assumptions etc.
+looking mostly at ultimate (can include yield)
+need to be able to include initial strain (profile) (just increment off of an initial 
+be clear that we are not including the impact of section loss on stability (i.e. lateral torsional buckling)
+not looking at local fatigue
+
+look into inpolygon for meshing
